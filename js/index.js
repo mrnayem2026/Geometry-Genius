@@ -29,8 +29,15 @@ document.getElementById('rhombusCalc').addEventListener('click',function(){
 // Rhombus card End
 
 
-// Rhombus card End
-// Rhombus card End
+// ellipse card End
+document.getElementById('ellipseCalc').addEventListener('click', function(){
+    let elipseName = document.getElementById('elipseName').innerText;
+    let ellipseA = parseFloat(document.getElementById('ellipseA').innerText);
+    let ellipseB = parseFloat(document.getElementById('ellipseB').innerText);
+    let area = (3.1416 * ellipseA * ellipseB).toFixed(2);   
+    displayData(elipseName, area);
+})
+// ellipse card End
 
 
 
