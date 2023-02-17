@@ -14,6 +14,21 @@ function getDate(firstN,b,h){
 }
 // First card Function End
 
+// 2nd and 3rd card Function End
+function getDateForRectPara(name,width,length){
+    let rectangleName = document.getElementById(name).innerText;
+    let rectangleWidth = parseFloat(document.getElementById(width).value);
+    let rectangleLength  = parseFloat(document.getElementById(length).value);
+    let  area = rectangleWidth*rectangleLength;
+    if(isNaN(area) || area < 0 ){
+        alert("Please give valid number..")
+    } else {
+        displayData(rectangleName, area)
+    }
+}
+
+// 2nd and 3rd card Function End
+
 
 
 
