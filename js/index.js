@@ -22,5 +22,15 @@ document.getElementById('pentagonCalc').addEventListener('click',function(){
 })
 // Pentagon card End
 
+// Rhombus card Start
+document.getElementById('rhombusCalc').addEventListener('click',function(){
+    getDate("rhombusName", "rhombusD1" , "rhombusD2")
+})
+// Rhombus card End
+
+
+// Rhombus card End
+// Rhombus card End
+
 
 
