@@ -4,7 +4,7 @@ function getDate(firstN,b,h){
     let cardName = document.getElementById(firstN).innerText;
     let base = parseFloat(document.getElementById(b).value);
     let height = parseFloat(document.getElementById(h).value);
-    let area = 0.5  * base * height;
+    let area =( 0.5  * base * height).toFixed(2);
     if(isNaN(area) || area < 0 ){
         alert("Please give valid number..")
     } else {
@@ -19,7 +19,7 @@ function getDateForRectPara(name,width,length){
     let rectangleName = document.getElementById(name).innerText;
     let rectangleWidth = parseFloat(document.getElementById(width).value);
     let rectangleLength  = parseFloat(document.getElementById(length).value);
-    let  area = rectangleWidth*rectangleLength;
+    let  area = (rectangleWidth*rectangleLength).toFixed(2);
     if(isNaN(area) || area < 0 ){
         alert("Please give valid number..")
     } else {

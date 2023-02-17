@@ -10,5 +10,11 @@ document.getElementById('rectangleCalc').addEventListener('click', function(){
 })
 // Rectangle card End
 
+// parallelogram card Start
+document.getElementById('parallelogramCalc').addEventListener('click', function(){
+    getDateForRectPara('parallelogram-name','parallelogram-width','parallelogram-length')
+})
+// parallelogram card End
+
 
 
