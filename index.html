@@ -136,6 +136,7 @@
                     </div>
                 </div>
                 <!-- Parallelogram card  HTML Structure End -->
+
                 <!-- fourth card  -->
                 <div class="card card-compact w-full bg-base-100 shadow-xl ">
                     <div class="py-12 px-10  rounded-lg">
@@ -170,39 +171,41 @@
                     </div>
                 </div>
 
-                <!--  card no five  -->
+                  <!-- Pentagon card  HTML Structure End -->
                 <div class="card card-compact w-full bg-base-100 shadow-xl ">
                     <div class="py-12 px-10  rounded-lg">
                         <figure>
                             <img class="w-full h-40" src="./images/pentagon.png" alt="Shoes" />
                         </figure>
                         <div class="card-body text-center">
-                            <h2 class="text-2xl font-bold" id="first-name">Pentagon</h2>
+                            <h2 class="text-2xl font-bold" id="pentagon-name">Pentagon</h2>
                             <p>
                                 Area (A) =0.5<span class="text-xl">×</span>P<span class="text-xl">×</span>B
 
                             </p>
-                            <!-- <section class="flex">
-                           <div class="">
-                               <input type="text" placeholder="W" class="w-20 py-1 pl-3 rounded-lg bg-slate-300 placeholder:text-black placeholder:text-base">
-                               <label for="cm" class="mr-2">cm</label>
-                           </div>
-                           <div class="">
-                               <input type="text" placeholder="I" class="w-20 py-1 pl-3  rounded-lg bg-slate-300 placeholder:text-black placeholder:text-base">
-                               <label for="cm">cm</label>
-                           </div>
-                       </section> -->
+                            <section class="flex">
+                                <div class="">
+                                    <input id="pentagon-p" type="text" placeholder="P"
+                                        class="w-20 py-1 pl-3 rounded-lg bg-slate-300 placeholder:text-black placeholder:text-base">
+                                    <label for="cm" class="mr-2">cm</label>
+                                </div>
+                                <div class="">
+                                    <input id="pentagon-b" type="text" placeholder="B"
+                                        class="w-20 py-1 pl-3  rounded-lg bg-slate-300 placeholder:text-black placeholder:text-base">
+                                    <label for="cm">cm</label>
+                                </div>
+                            </section>
 
-                            <p class="text-xl font-semibold">P=6cm, B=10cm</p>
+                            <!-- <p class="text-xl font-semibold">P=6cm, B=10cm</p> -->
                             <div class="card-actions justify-end pt-10">
-                                <button class="btn btn-info btn-block font-bold text-sm text-white">
+                                <button id="pentagonCalc" class="btn btn-info btn-block font-bold text-sm text-white">
                                     Calculate
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--  card no six -->
+                 <!-- Pentagon card  HTML Structure End -->
                 <div class="card card-compact w-full bg-base-100 shadow-xl ">
                     <div class="py-12 px-10 rounded-lg">
                         <figure>
@@ -239,20 +242,19 @@
 
             <!-- cart details div  -->
             <div class="cart-details w-full md:w-[40%] lg:w-[40%] mx-auto">
-                <h1 class="text-3xl text-center font-bold underline mt-5">
+                <h1 class="text-3xl text-center font-bold underline my-5">
                     Area Calculation
                 </h1>
-                <div class="overflow-x-auto">
-                    <table class="table w-full">
-                        <!-- <thead>
+                <div class="overflow-x-auto pl-4">
+                    <table class="table w-full ">
+                        <thead class="">
                             <tr>
                                 <th>No</th>
                                 <th>Name</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                                <th>Total</th>
+                                <th>Area</th>
+                                <th>Covert mm</th>
                             </tr>
-                        </thead> -->
+                        </thead>
                         <tbody id="table-container">
                             <!-- <tr>
                     <th>1</th>

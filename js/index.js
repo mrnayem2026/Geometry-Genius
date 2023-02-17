@@ -16,5 +16,11 @@ document.getElementById('parallelogramCalc').addEventListener('click', function(
 })
 // parallelogram card End
 
+// Pentagon card Start
+document.getElementById('pentagonCalc').addEventListener('click',function(){
+    getDate("pentagon-name", "pentagon-p" , "pentagon-b")
+})
+// Pentagon card End
+
 
 
