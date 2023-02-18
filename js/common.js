@@ -1,5 +1,5 @@
 
-// First card Function start
+// get Date From Triangle,Rhombus and Pentagon card Function Start
 function getDate(firstN,b,h){
     let cardName = document.getElementById(firstN).innerText;
     let base = parseFloat(document.getElementById(b).value);
@@ -12,9 +12,9 @@ function getDate(firstN,b,h){
     }
    
 }
-// First card Function End
+// get Date From Triangle,Rhombus and Pentagon card Function End
 
-// 2nd and 3rd card Function End
+// get Date From Rectangle and Parallelogram card Function Start
 function getDateForRectPara(name,width,length){
     let rectangleName = document.getElementById(name).innerText;
     let rectangleWidth = parseFloat(document.getElementById(width).value);
@@ -27,13 +27,13 @@ function getDateForRectPara(name,width,length){
     }
 }
 
-// 2nd and 3rd card Function End
+// get Date From Rectangle and Parallelogram card Function End
 
 
 
 
 
-// common function to display data 
+// common function to display data start
 let count = 0;
 function displayData(cardName, area) {
     count += 1;
@@ -49,4 +49,4 @@ function displayData(cardName, area) {
     `;
     container.appendChild(tr);
   }
-  
+  // common function to display data End
